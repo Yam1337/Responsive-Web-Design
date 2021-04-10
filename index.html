@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <nav>
+      <div class="navLogo">
+        <img src="./images/logo.svg" />
+      </div>
+      <ul class="navLinks">
+        <li><a href="#">ICO</a></li>
+        <li><a href="#team">Team</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+    <div class="separator"></div>
+
+    <!-- MASK -->
+
+    <div class="maskContent">
+      <div class="maskLeft">
+        <div class="Crypto">
+          The first fully-automatic social crypto trading platform with real
+          crypto currency
+        </div>
+        <div class="Subscribe">Subscribe and get the lastes information</div>
+        <div class="SubscribeBar">
+          <input placeholder="Enter your email" /><button>Subscribe</button>
+        </div>
+      </div>
+      <div class="maskCenter">
+        <div class="arrowContainer">
+          <input
+            onclick="location.href='#team'"
+            class="arrowButton"
+            type="image"
+            src="./images/arrow.svg"
+          />
+        </div>
+      </div>
+      <div class="maskRight">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+        <div class="wrapper">
+          <video class="maskVideo">
+            <source src="videos/surfing.mp4" type="video/mp4" />
+          </video>
+          <div class="playpause" id="maskVideo"></div>
+        </div>
+      </div>
+    </div>
+    <div class="spaceFiller1"></div>
+
+    <!-- FIXED BUTTONS -->
+    <div class="maskButton">
+      <input type="image" src="./images/twitter.svg" />
+      <input type="image" src="./images/facebook.svg" />
+    </div>
+    <!-- TEAM -->
+    <div class="teamText" id="team">TEAM</div>
+    <div class="teamContent">
+      <div class="teamMember">
+        <input
+          type="image"
+          id="edgar"
+          class="teamPortrait"
+          src="./images/team/edgar.svg"
+        />
+        <div class="teamName">Edgar Morisson</div>
+        <div class="teamPosition">CEO</div>
+        <div class="teamDesc">
+          Having used discount toner cartridges for twenty years, there have
+          been a lot of changes in the toner...
+        </div>
+        <div class="squareButtons">
+          <input
+            class="squareButton"
+            type="image"
+            src="./images/facebooksquare.svg"
+          /><input type="image" src="./images/linkedinsquare.svg" />
+        </div>
+      </div>
+      <div class="teamMember">
+        <input
+          type="image"
+          id="mae"
+          class="teamPortrait"
+          src="./images/team/mae.svg"
+        />
+        <div class="teamName">Mae Martin</div>
+        <div class="teamPosition">CTO</div>
+        <div class="teamDesc">
+          Having used discount toner cartridges for twenty years, there have
+          been a lot of changes in the toner...
+        </div>
+        <div class="squareButtons">
+          <input
+            class="squareButton"
+            type="image"
+            src="./images/facebooksquare.svg"
+          /><input type="image" src="./images/linkedinsquare.svg" />
+        </div>
+      </div>
+      <div class="teamMember">
+        <input
+          type="image"
+          id="david"
+          class="teamPortrait"
+          src="./images/team/david.svg"
+        />
+        <div class="teamName">David Banks</div>
+        <div class="teamPosition">CFO</div>
+        <div class="teamDesc">
+          Having used discount toner cartridges for twenty years, there have
+          been a lot of changes in the toner...
+        </div>
+        <div class="squareButtons">
+          <input
+            class="squareButton"
+            type="image"
+            src="./images/facebooksquare.svg"
+          /><input type="image" src="./images/linkedinsquare.svg" />
+        </div>
+      </div>
+      <div class="teamMember">
+        <input
+          type="image"
+          id="frederick"
+          class="teamPortrait"
+          src="./images/team/frederick.svg"
+        />
+        <div class="teamName">Frederick Parsons</div>
+        <div class="teamPosition">COO</div>
+        <div class="teamDesc">
+          Having used discount toner cartridges for twenty years, there have
+          been a lot of changes in the toner...
+        </div>
+        <div class="squareButtons">
+          <input
+            class="squareButton"
+            type="image"
+            src="./images/facebooksquare.svg"
+          /><input type="image" src="./images/linkedinsquare.svg" />
+        </div>
+      </div>
+    </div>
+    <!-- CONTACT -->
+    <div class="contactContent" id="contact">
+      <div class="contactBox1">
+        <div>
+          <div class="contactText">CONTACT US</div>
+          <div class="contactCalendar">
+            Most calendars are designed for teams.<br />Slate is designed for
+            freelancers
+          </div>
+        </div>
+      </div>
+      <div class="contactBox2">
+        <input class="inputName" placeholder="Your Name" /><input
+          class="inputEmail"
+          placeholder="Your Email"
+        />
+        <div class="contactBox3">
+          <div class="myCheckbox">
+            <input class="inputCheckbox" type="checkbox" />
+            <div>Checkbox</div>
+          </div>
+          <button class="myButton">Send</button>
+        </div>
+      </div>
+    </div>
+    <!-- FOOTER -->
+    <div class="footerContent">
+      <div class="footerSpaceFillerTop"></div>
+      <div class="footerBox1">
+        <div class="footerBox11"><img src="./images/logo.svg" /></div>
+        <div class="footerBox12">
+          <div class="footerContactBox">
+            <div class="contactUs">Contact us</div>
+            <a href="mailto:have@nicecoding.io" class="contactEmail"
+              >have@nicecoding.io</a
+            >
+          </div>
+        </div>
+        <div class="footerBox13">
+          <button>Read whitepaper</button>
+        </div>
+      </div>
+      <div class="footerSpaceFillerBot"></div>
+      <div class="footerBox2">
+        <a href="#" class="footerText">© Copywriters 2020</a>
+        <div class="footerLine"></div>
+        <a href="#" class="footerText">FAQ</a>
+        <div class="footerLine"></div>
+        <a href="#" class="footerText">Terms of Use</a>
+        <div class="footerLine"></div>
+        <a href="#" class="footerText">Privacy Policy</a>
+      </div>
+      <div class="footerSpaceFillerBot2"></div>
+    </div>
+    <!-- MODAL -->
+    <div id="myModal1" class="modal">
+      <div class="modal-content">
+        <div class="close">
+          <input type="image" id="closeModal1" src="./images/close.svg" />
+        </div>
+        <div class="modalName">Edgar Morrison</div>
+        <div class="modalPosition">CEO</div>
+        <div class="modalDesc">
+          Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
+          sint. Velit officia consequat duis enim velit mollit. Exercitation
+          veniam consequat sunt nostrud amet. Amet minim mollit non deserunt
+          ullamco est sit aliqua dolor do amet sint. Velit officia consequat
+          duis enim velit mollit. Exercitation veniam consequat sunt nostrud
+          amet. Amet minim mollit non deserunt ullamco est sit aliqua dolor do
+          amet sint. Velit officia consequat duis enim velit mollit.
+          Exercitation veniam consequat sunt nostrud amet. Amet minim mollit non
+          deserunt ullamco est sit aliqua dolor do amet sint. Velit officia
+          consequat duis enim velit mollit. Exercitation veniam consequat sunt
+          nostrud amet. Amet minim mollit non deserunt ullamco est sit aliqua
+          dolor do amet sint. Velit officia consequat duis enim velit mollit.
+          Exercitation veniam consequat sunt nostrud amet. Amet minim mollit non
+          deserunt ullamco est sit aliqua dolor do amet sint. Velit officia
+          consequat duis enim velit mollit. Exercitation veniam consequat sunt
+          nostrud amet. Amet minim mollit non deserunt ullamco est sit aliqua
+          dolor do amet sint. Velit officia consequat duis enim velit mollit.
+          Exercitation veniam consequat sunt nostrud amet. Amet minim mollit non
+          deserunt ullamco est sit aliqua dolor do amet sint. Velit officia
+          consequat duis enim velit mollit. Exercitation veniam consequat sunt
+          nostrud amet.
+        </div>
+      </div>
+    </div>
+
+    <div id="myModal2" class="modal">
+      <div class="modal-content">
+        <div class="close">
+          <input type="image" id="closeModal2" src="./images/close.svg" />
+        </div>
+        <div class="modalName">Mae Martin</div>
+        <div class="modalPosition">CTO</div>
+        <div class="modalDesc">
+          Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
+          sint. Velit officia consequat duis enim velit mollit. Exercitation
+          veniam consequat sunt nostrud amet. Amet minim mollit non deserunt
+          ullamco est sit aliqua dolor do amet sint. Velit officia consequat
+          duis enim velit mollit. Exercitation veniam consequat sunt nostrud
+          amet. Amet minim mollit non deserunt ullamco est sit aliqua dolor do
+          amet sint. Velit officia consequat duis enim velit mollit.
+          Exercitation veniam consequat sunt nostrud amet. Amet minim mollit non
+          deserunt ullamco est sit aliqua dolor do amet sint. Velit officia
+          consequat duis enim velit mollit. Exercitation veniam consequat sunt
+          nostrud amet. Amet minim mollit non deserunt ullamco est sit aliqua
+          dolor do amet sint. Velit officia consequat duis enim velit mollit.
+          Exercitation veniam consequat sunt nostrud amet. Amet minim mollit non
+          deserunt ullamco est sit aliqua dolor do amet sint. Velit officia
+          consequat duis enim velit mollit. Exercitation veniam consequat sunt
+          nostrud amet. Amet minim mollit non deserunt ullamco est sit aliqua
+          dolor do amet sint. Velit officia consequat duis enim velit mollit.
+          Exercitation veniam consequat sunt nostrud amet. Amet minim mollit non
+          deserunt ullamco est sit aliqua dolor do amet sint. Velit officia
+          consequat duis enim velit mollit. Exercitation veniam consequat sunt
+          nostrud amet.
+        </div>
+      </div>
+    </div>
+
+    <div id="myModal3" class="modal">
+      <div class="modal-content">
+        <div class="close">
+          <input type="image" id="closeModal3" src="./images/close.svg" />
+        </div>
+        <div class="modalName">David Banks</div>
+        <div class="modalPosition">CFO</div>
+        <div class="modalDesc">
+          Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
+          sint. Velit officia consequat duis enim velit mollit. Exercitation
+          veniam consequat sunt nostrud amet. Amet minim mollit non deserunt
+          ullamco est sit aliqua dolor do amet sint. Velit officia consequat
+          duis enim velit mollit. Exercitation veniam consequat sunt nostrud
+          amet. Amet minim mollit non deserunt ullamco est sit aliqua dolor do
+          amet sint. Velit officia consequat duis enim velit mollit.
+          Exercitation veniam consequat sunt nostrud amet. Amet minim mollit non
+          deserunt ullamco est sit aliqua dolor do amet sint. Velit officia
+          consequat duis enim velit mollit. Exercitation veniam consequat sunt
+          nostrud amet. Amet minim mollit non deserunt ullamco est sit aliqua
+          dolor do amet sint. Velit officia consequat duis enim velit mollit.
+          Exercitation veniam consequat sunt nostrud amet. Amet minim mollit non
+          deserunt ullamco est sit aliqua dolor do amet sint. Velit officia
+          consequat duis enim velit mollit. Exercitation veniam consequat sunt
+          nostrud amet. Amet minim mollit non deserunt ullamco est sit aliqua
+          dolor do amet sint. Velit officia consequat duis enim velit mollit.
+          Exercitation veniam consequat sunt nostrud amet. Amet minim mollit non
+          deserunt ullamco est sit aliqua dolor do amet sint. Velit officia
+          consequat duis enim velit mollit. Exercitation veniam consequat sunt
+          nostrud amet.
+        </div>
+      </div>
+    </div>
+
+    <div id="myModal4" class="modal">
+      <div class="modal-content">
+        <div class="close">
+          <input type="image" id="closeModal4" src="./images/close.svg" />
+        </div>
+        <div class="modalName">Frederick Parsons</div>
+        <div class="modalPosition">COO</div>
+        <div class="modalDesc">
+          Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
+          sint. Velit officia consequat duis enim velit mollit. Exercitation
+          veniam consequat sunt nostrud amet. Amet minim mollit non deserunt
+          ullamco est sit aliqua dolor do amet sint. Velit officia consequat
+          duis enim velit mollit. Exercitation veniam consequat sunt nostrud
+          amet. Amet minim mollit non deserunt ullamco est sit aliqua dolor do
+          amet sint. Velit officia consequat duis enim velit mollit.
+          Exercitation veniam consequat sunt nostrud amet. Amet minim mollit non
+          deserunt ullamco est sit aliqua dolor do amet sint. Velit officia
+          consequat duis enim velit mollit. Exercitation veniam consequat sunt
+          nostrud amet. Amet minim mollit non deserunt ullamco est sit aliqua
+          dolor do amet sint. Velit officia consequat duis enim velit mollit.
+          Exercitation veniam consequat sunt nostrud amet. Amet minim mollit non
+          deserunt ullamco est sit aliqua dolor do amet sint. Velit officia
+          consequat duis enim velit mollit. Exercitation veniam consequat sunt
+          nostrud amet. Amet minim mollit non deserunt ullamco est sit aliqua
+          dolor do amet sint. Velit officia consequat duis enim velit mollit.
+          Exercitation veniam consequat sunt nostrud amet. Amet minim mollit non
+          deserunt ullamco est sit aliqua dolor do amet sint. Velit officia
+          consequat duis enim velit mollit. Exercitation veniam consequat sunt
+          nostrud amet.
+        </div>
+      </div>
+    </div>
+
+    <!-- VIDEO MODAL -->
+
+    <div id="videoModal" class="modal">
+      <div class="modal-content">
+        <div class="close">
+          <input type="image" id="closeVideoModal" src="./images/close.svg" />
+        </div>
+        <div>
+          <video
+            class="myVideo"
+            src="videos/surfing.mp4"
+            controls="true"
+            autoplay="true"
+          />
+        </div>
+        <div class="modalDesc" id="modalVideo">
+          Wideo (autor: Peter Fowler) z Pexels
+        </div>
+      </div>
+    </div>
+    <script>
+      // Get the modal
+      let modal1 = document.getElementById("myModal1");
+      // Get the button that opens the modal
+      let openModal1 = document.getElementById("edgar");
+      let openModalFunction1 = function () {
+        modal1.style.display = "flex";
+      };
+      openModal1.addEventListener("click", openModalFunction1);
+      // Delete the modal
+      let closeModal1 = document.getElementById("closeModal1");
+      closeModal1.addEventListener("click", function () {
+        modal1.style.display = "none";
+      });
+
+      /// PERSON 2
+
+      // Get the modal
+      let modal2 = document.getElementById("myModal2");
+      // Get the button that opens the modal
+      let openModal2 = document.getElementById("mae");
+      let openModalFunction2 = function () {
+        modal2.style.display = "flex";
+      };
+      openModal2.addEventListener("click", openModalFunction2);
+      // Delete the modal
+      let closeModal2 = document.getElementById("closeModal2");
+      closeModal2.addEventListener("click", function () {
+        modal2.style.display = "none";
+      });
+
+      /// PERSON 3
+
+      // Get the modal
+      let modal3 = document.getElementById("myModal3");
+      // Get the button that opens the modal
+      let openModal3 = document.getElementById("david");
+      let openModalFunction3 = function () {
+        modal3.style.display = "flex";
+      };
+      openModal3.addEventListener("click", openModalFunction3);
+      // Delete the modal
+      let closeModal3 = document.getElementById("closeModal3");
+      closeModal3.addEventListener("click", function () {
+        modal3.style.display = "none";
+      });
+
+      /// PERSON 4
+
+      // Get the modal
+      let modal4 = document.getElementById("myModal4");
+      // Get the button that opens the modal
+      let openModal4 = document.getElementById("frederick");
+      let openModalFunction4 = function () {
+        modal4.style.display = "flex";
+      };
+      openModal4.addEventListener("click", openModalFunction4);
+      // Delete the modal
+      let closeModal4 = document.getElementById("closeModal4");
+      closeModal4.addEventListener("click", function () {
+        modal4.style.display = "none";
+      });
+
+      /// MASK VIDEO
+
+      // Get the modal
+      let videoModal = document.getElementById("videoModal");
+      // Get the button that opens the modal
+      let openVideoModal = document.getElementById("maskVideo");
+      let openVideoModalFunction = function () {
+        videoModal.style.display = "flex";
+      };
+      openVideoModal.addEventListener("click", openVideoModalFunction);
+      // Delete the modal
+      let closeVideoModal = document.getElementById("closeVideoModal");
+      closeVideoModal.addEventListener("click", function () {
+        videoModal.style.display = "none";
+      });
+    </script>
+  </body>
+</html>
