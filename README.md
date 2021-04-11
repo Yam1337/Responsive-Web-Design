@@ -1,7 +1,7 @@
 # Responsive Web Design
 
 <p align="left">
-<img src="https://github.com/Yam1337/Responsive-Web-Design/blob/master/desktop.gif">
+<img src="https://github.com/Yam1337/Responsive-Web-Design/blob/master/desktop.gif" width="33%">
 </p>
 <p align="center">
   <img src="https://github.com/Yam1337/Responsive-Web-Design/blob/master/tablet.gif">
