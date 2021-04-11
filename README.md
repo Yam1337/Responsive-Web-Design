@@ -1,15 +1,15 @@
 # Responsive Web Design
 
 <p align="center">
-    **Desktop 1440x900**
+    <h1>Desktop 1440x900</h1>
 <img src="https://github.com/Yam1337/Responsive-Web-Design/blob/master/desktop.gif">
 </p>
 <p align="center">
-    **iPad 768x1024**
+    <h1>iPad 768x1024</h1>
     <img src="https://github.com/Yam1337/Responsive-Web-Design/blob/master/tablet.gif">
 </p>
 <p align="center">
-    **iPhone 5/SE 320x568**
+    <h1>iPhone 5/SE 320x568</h1>
     <img src="https://github.com/Yam1337/Responsive-Web-Design/blob/master/mobile.gif">
 </p>
 
