@@ -13,7 +13,7 @@
 # Description
 
 This project is a Responsive Web Design which uses HTML, SASS and a little bit of JavaScript.
-This project is a presentation page of Responsive Web Design (RWD). The aim of this project was to create page, that will display in attractive way on all kinds of devices such as desktops, laptops, tablets and mobile phones.
+This project is a presentation of the marketing page with Responsive Web Design (RWD). The aim of this project was to create page, that will display in attractive way on all kinds of devices such as desktops, laptops, tablets and mobile phones.
 
 # Technology stack
 * HTML
