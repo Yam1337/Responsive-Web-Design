@@ -1,13 +1,12 @@
 # Responsive Web Design
 
-<div style="text-align:center"><p>Desktop 1440x900</p>
-</p><img src="https://github.com/Yam1337/Responsive-Web-Design/blob/master/desktop.gif" /></div>
+<div align="center">
+<img src="https://github.com/Yam1337/Responsive-Web-Design/blob/master/desktop.gif">
+</div>
 <p align="center">
-    <div>iPad 768x1024</div>
     <img src="https://github.com/Yam1337/Responsive-Web-Design/blob/master/tablet.gif">
 </p>
 <p align="center">
-    <div>iPhone 5/SE 320x568</div>
     <img src="https://github.com/Yam1337/Responsive-Web-Design/blob/master/mobile.gif">
 </p>
 
