@@ -2,6 +2,8 @@
 
 <p align="center">
 <img src="https://github.com/Yam1337/Responsive-Web-Design/blob/master/desktop.gif">
+  <img src="https://github.com/Yam1337/Responsive-Web-Design/blob/master/tablet.gif">
+  <img src="https://github.com/Yam1337/Responsive-Web-Design/blob/master/mobile.gif">
 </p>
 
 # Description
