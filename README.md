@@ -1,9 +1,7 @@
 # Responsive Web Design
 
-<p align="center">
-    <div>Desktop 1440x900</div>
-<img src="https://github.com/Yam1337/Responsive-Web-Design/blob/master/desktop.gif">
-</p>
+<div style="text-align:center"><p>Desktop 1440x900</p>
+</p><img src="https://github.com/Yam1337/Responsive-Web-Design/blob/master/desktop.gif" /></div>
 <p align="center">
     <div>iPad 768x1024</div>
     <img src="https://github.com/Yam1337/Responsive-Web-Design/blob/master/tablet.gif">
