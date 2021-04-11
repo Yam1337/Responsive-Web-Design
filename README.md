@@ -1,4 +1,8 @@
-# Responsive We Design
+# Responsive Web Design
+
+<p align="center">
+<img src="https://github.com/Yam1337/Responsive-Web-Design/blob/master/desktop.gif">
+</p>
 
 # Description
 
