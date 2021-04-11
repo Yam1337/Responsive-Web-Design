@@ -1,9 +1,5 @@
 # Responsive We Design
 
-<p align="center">
-<img src="https://github.com/Yam1337/React-Contact-List/blob/master/presentation-contact-list.gif">
-</p>
-
 # Description
 
 This project is a Responsive Web Design which uses HTML, SASS and a little bit of JavaScript.
