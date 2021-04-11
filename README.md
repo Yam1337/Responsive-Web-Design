@@ -1,9 +1,13 @@
 # Responsive Web Design
 
 <p align="center">
-<img src="https://github.com/Yam1337/Responsive-Web-Design/blob/master/desktop.gif" width="30%">
-    <img src="https://github.com/Yam1337/Responsive-Web-Design/blob/master/tablet.gif" width="30%">
-    <img src="https://github.com/Yam1337/Responsive-Web-Design/blob/master/mobile.gif" width="30%">
+<img src="https://github.com/Yam1337/Responsive-Web-Design/blob/master/desktop.gif">
+</p>
+<p align="center">
+    <img src="https://github.com/Yam1337/Responsive-Web-Design/blob/master/tablet.gif">
+</p>
+<p align="center">
+    <img src="https://github.com/Yam1337/Responsive-Web-Design/blob/master/mobile.gif">
 </p>
 
 # Description
